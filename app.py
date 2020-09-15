@@ -19,8 +19,8 @@ print("Hey there! Wecome welcome, come and tell me how you are feeling?")
 
 user_response = ""
 
-#keep asking how they feel tell user says Good bye
-while user_response != 'Good bye':
-    user_response = input('type "Good bye" when you nologer want to talk, but pleas do tell me how you are felling?')
+#keep asking how they feel tell user says done
+while user_response != 'done':
+    user_response = input('type "done" when you nologer want to talk, but pleas do tell me how you are felling?')
 
     print(get_bot_response(user_response))
